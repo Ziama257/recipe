@@ -15,6 +15,7 @@ html, body {
 }
 html{
     background-color: rgba(122, 191, 191, .5);
+    font-family: Arial, Helvetica, sans-serif;
 }
 body {
     display: grid;
@@ -84,12 +85,15 @@ main img{
 #mainNav{
     width: 100%;
     position: relative;
-    /* left: -50px; */
+    top: -50px;
 }
 #home{
     background-color: #eb5428;
     width: 150%;
     position: relative;
+}
+#home h2{
+    visibility: hidden;
 }
 #avatar{
     width: 100%;
@@ -101,6 +105,9 @@ main img{
     width:0%;
     max-width: 414px;;
     top: 0px;
+}
+#mainNav h2:first-child{
+    visibility: hidden;
 }
 #dropdownMenu{
     list-style: none;
@@ -244,10 +251,12 @@ footer h2{
 #contact a{
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 
 input[type="text"]{
     width: 300px;
     border: 2px #eb5428 solid;
 }
+
+/* fonts */
+
