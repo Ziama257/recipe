@@ -18,7 +18,7 @@ html{
 }
 body {
     display: grid;
-    width: 414px;
+    max-width: 414px;
     grid-template-columns: 1fr;
     background-color: #f2f2f2 ;
 }
@@ -28,6 +28,8 @@ header {
     width: 100%;
     height: 250px;
     top: 150px;
+    padding-top: 20px;
+    margin-bottom: 20px;
 }
 
 header nav ul {
@@ -47,16 +49,31 @@ header nav ul li a {
 }
 
 main {
-    width: 100%;
+    width: 414px;
+    justify-self: center;
+    background-color: #f2f2f2
 }
 main img{
     margin-top: 5px;
     width: 414px;
 
 }
-
+#search{
+    display: flex;
+    position: absolute;
+    top: 125px;
+    right: 425px;
+}
+#search h2{
+    visibility: hidden;
+}
+#search svg{
+    background-color: #eb5428;
+}
 aside {
-    width: 100%;
+    width: 414px;
+    justify-self: center;
+    background-color: #7abfbf;
 }
 
 
@@ -124,6 +141,13 @@ aside {
 main article p{
     margin-top: 10px;
     text-align: left;
+    
+}
+
+main article{
+    display: block;
+    max-width: 414px;
+    padding: 0px 10px 10px 0px;
 }
 
 main h2{
@@ -143,7 +167,7 @@ main ol{
     text-align: left;
 }
 
-input {
+#dropdown {
     visibility:hidden;
     position: relative;
     left: -400px;
@@ -153,4 +177,9 @@ input {
 
 footer {
     width: 100%;
+}
+
+input[type="text"]{
+    width: 300px;
+    border: 2px #eb5428 solid;
 }
