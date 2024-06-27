@@ -237,6 +237,14 @@ footer h2{
 #contact ul{
     display: flex;
     list-style: none;
+    justify-content: space-between;
+    margin-left: 5px;
+    margin-right: 5px
+}
+#contact a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 input[type="text"]{
