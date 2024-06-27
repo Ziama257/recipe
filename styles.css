@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body {
+    display: grid;
+    width: 414px;
+    grid-template-columns: 1fr;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    top: 150px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    list-style: none;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+main {
+    width: 100%;
+}
+main img{
+    margin-top: 5px;
+    width: 100%;
+    display: block;
+}
+
+aside {
+    width: 100%;
+}
+
+
+#main{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 100px;;
+    max-width: 414px;
+    top: 0;
+}
+
+
+#mainNav{
+    width: 20%;
+    position: relative;
+    left: -50px;
+}
+#home{
+    background-color: #eb5428;
+    width: 60%;
+    position: relative;
+}
+#avatar{
+    width: 20%;
+    position: relative;
+    left: 50px;
+}
+#menu{
+    position: relative;
+    width:0%;
+    max-width: 414px;;
+    top: 0px;
+    background-color: ;
+}
+#dropdownMenu{
+    list-style: none;
+    position: absolute;
+    top: 100%;
+    left: -400px;
+    text-align: center;
+    display: none;
+    z-index: 3;
+}
+#dropdown:checked ~ #dropdownMenu {
+    display: block;
+}
+
+#main #menu label {
+    cursor: pointer;
+    display: inline-block;
+    padding: 28px 20px;
+    left: -350px;
+    top: 0px;
+    position: relative;
+    user-select: none;
+    z-index: 2;
+}
+#main #menu li a {
+    display: block;
+    color:white;
+    text-decoration: none;
+    padding: 20px 20px;
+    font-weight:lighter;
+}
+main article p{
+    margin-top: 10px;
+    text-align: left;
+}
+
+main h2{
+    margin-top: 10px;
+}
+
+main ul{
+    list-style: none;
+    text-align: left;
+}
+
+main ul~ul{
+    list-style:disc;
+}
+
+main ol{
+    text-align: left;
+}
+
+input {
+    visibility:hidden;
+    position: relative;
+    left: -400px;
+    top: 30px;
+    height: 70px;
+}
+
+footer {
+    width: 100%;
+}
