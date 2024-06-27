@@ -62,18 +62,13 @@ main img{
     display: flex;
     position: absolute;
     top: 125px;
-    right: 425px;
+    right: 780px
 }
 #search h2{
     visibility: hidden;
 }
 #search svg{
     background-color: #eb5428;
-}
-aside {
-    width: 414px;
-    justify-self: center;
-    background-color: #7abfbf;
 }
 
 
@@ -106,7 +101,6 @@ aside {
     width:0%;
     max-width: 414px;;
     top: 0px;
-    background-color: ;
 }
 #dropdownMenu{
     list-style: none;
@@ -116,9 +110,14 @@ aside {
     text-align: center;
     display: none;
     z-index: 3;
+    background-color: #7abfbf;
 }
 #dropdown:checked ~ #dropdownMenu {
     display: block;
+}
+#dropdownMenu img{
+    height: 75px;
+    width: 75px;
 }
 
 #main #menu label {
@@ -157,14 +156,48 @@ main h2{
 main ul{
     list-style: none;
     text-align: left;
+    position: relative;
+    margin-left: 30px;
 }
 
 main ul~ul{
+    position: relative;
     list-style:disc;
+    margin-left: 30px;;
 }
 
 main ol{
     text-align: left;
+    position: relative;
+    margin-left: 30px;
+}
+
+aside {
+    width: 414px;
+    justify-self: center;
+    background-color: #7abfbf;
+}
+aside dd{
+    display: flex;
+}
+aside dt{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 140px;
+    text-transform: uppercase;
+}
+aside div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+aside img{
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 100px;
+    width: 100px;
 }
 
 #dropdown {
@@ -177,6 +210,33 @@ main ol{
 
 footer {
     width: 100%;
+    display: flex;
+    flex-direction:column-reverse;
+    justify-content: center;
+    background-color: #f2f2f2;
+}
+footer img{
+    height: 75px;
+    width: 75px;
+    margin-left: 40%;
+    margin-top: 25px;
+}
+footer div{
+    margin-top: 25px;
+}
+
+footer h2{
+    visibility: hidden;
+}
+#contact{
+    background-color: #f2f2f2;
+}
+#contact h2, #contact h3{
+    visibility: hidden;
+}
+#contact ul{
+    display: flex;
+    list-style: none;
 }
 
 input[type="text"]{
