@@ -13,11 +13,14 @@ html, body {
     padding: 0;
     text-align: center;
 }
-
+html{
+    background-color: rgba(122, 191, 191, .5);
+}
 body {
     display: grid;
     width: 414px;
     grid-template-columns: 1fr;
+    background-color: #f2f2f2 ;
 }
 
 header {
@@ -48,8 +51,8 @@ main {
 }
 main img{
     margin-top: 5px;
-    width: 100%;
-    display: block;
+    width: 414px;
+
 }
 
 aside {
@@ -60,27 +63,26 @@ aside {
 #main{
     position: absolute;
     display: flex;
-    width: 100%;
+    width: 414px;
     height: 100px;;
-    max-width: 414px;
     top: 0;
 }
 
 
 #mainNav{
-    width: 20%;
+    width: 100%;
     position: relative;
-    left: -50px;
+    /* left: -50px; */
 }
 #home{
     background-color: #eb5428;
-    width: 60%;
+    width: 150%;
     position: relative;
 }
 #avatar{
-    width: 20%;
+    width: 100%;
     position: relative;
-    left: 50px;
+    /* left: 50px; */
 }
 #menu{
     position: relative;
@@ -106,8 +108,8 @@ aside {
     cursor: pointer;
     display: inline-block;
     padding: 28px 20px;
-    left: -350px;
-    top: 0px;
+    left: -255px;
+    top: -25px;
     position: relative;
     user-select: none;
     z-index: 2;
