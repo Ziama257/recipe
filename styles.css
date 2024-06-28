@@ -397,3 +397,83 @@ figcaption, label, input, small {
         left: -212px
     }
 }
+@media screen and (min-width:1300px){
+    body, main, #main, #mainNav, aside {
+        max-width: 1300px;
+        width: 1300px !important
+    }
+    #home{
+        position: relative;
+        width:180px;
+        right: 608px;
+        padding-bottom: 10px;
+    }
+    #dropdownMenu{
+        top: 0px;
+    }
+    #avatar{
+        position: relative;
+        right: -200px;
+        top: 10px;
+    }
+    #search{
+        top: 150px;
+        left:450px
+    }
+    header h1{
+        text-align: center;
+    }
+    
+    header nav ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 60px;
+        height: 675px;
+        background-color: white;
+        border: 2px solid #eb5428
+    } 
+    header nav ul li{
+        position: relative;
+        right: 30px;
+        top: -50px;
+    }
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    main img{
+        margin-left: 104px;
+    }
+    article p{
+        position: relative;
+        width: 675px;
+        right: -100px;
+        height:150px;
+        line-height: 2;
+    }
+    article #details{
+        position: relative;
+        margin-top: 360px;
+        width: 1300px;
+        display: flex;
+        flex-direction: column;
+        left: -53.55%;
+        background-color: black;
+        color: #7abfbf;
+    }
+    #details ul{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #directions {
+        margin-left: -450px;
+        width: 1300px;
+    }
+    #directions ul{
+    text-align: left !important;
+    }
+    #directions ol{
+        width: 800px;
+    }
+}
