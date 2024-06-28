@@ -367,4 +367,20 @@ figcaption, label, input, small {
         grid-template-columns: 30% 70% ;
         margin-top: 20px;
     }
+    #contact{
+        display: flex;
+        justify-content: right;
+    }
+    #contact ul{
+        width: 200px;
+        margin-right: 55px;
+        margin-top: 55px;
+    }
+    footer img{
+        position: relative;
+        width: 200px;
+        height: 200px;
+        left: -225px;
+        margin-top: -75px;
+    }
 }
