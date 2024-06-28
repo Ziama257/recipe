@@ -61,9 +61,11 @@ main img{
 }
 #search{
     display: flex;
-    position: absolute;
+    position:absolute;
+    width: 350px;
+    height: 40px;
     top: 125px;
-    right: 210px
+    right: 68px
 }
 #search h2{
     visibility: hidden;
@@ -295,6 +297,7 @@ figcaption, label, input, small {
         justify-content: space-between;
         padding-left: 25px;
         padding-right: 25px;
+        padding-top: 10px;
     }
     #mainNav{
         visibility: hidden;
@@ -303,13 +306,13 @@ figcaption, label, input, small {
         position: relative;
         width:160px;
         right: 403px;
+        padding-bottom: 10px;
     }
     #search{
         position: absolute;
-        left: 550px;
+        left: 350px;
         top: 20px;
-        z-index: 3;
-        width: 350px;
+
     }
     main img{
         width: 100%;
@@ -372,9 +375,12 @@ figcaption, label, input, small {
         justify-content: right;
     }
     #contact ul{
-        width: 200px;
+        width: 275px;
         margin-right: 55px;
         margin-top: 55px;
+    }
+    #contact li{
+        margin-right: 20px;
     }
     footer img{
         position: relative;
@@ -382,5 +388,12 @@ figcaption, label, input, small {
         height: 200px;
         left: -225px;
         margin-top: -75px;
+    }
+    footer{
+        display: flex;
+    }
+    footer div{
+        position: relative;
+        left: -212px
     }
 }
