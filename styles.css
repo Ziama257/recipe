@@ -312,4 +312,7 @@ figcaption, label, input, small {
         padding-top: 10px;
         padding-bottom: 30px;
     }
+    #main{
+        background-color: white;
+    }
 }
