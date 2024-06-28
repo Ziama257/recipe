@@ -179,10 +179,11 @@ main ul{
     margin-left: 30px;
 }
 
-main ul~ul{
+#directions ul{
     position: relative;
     list-style:disc;
     margin-left: 30px;;
+    text-align: left;
 }
 
 main ol{
@@ -341,5 +342,22 @@ figcaption, label, input, small {
     header nav a{
         display: flex;
         flex-direction: column;
+        justify-content: center;
+    }
+    #recipe {
+        width: 850px !important;
+        max-width: 850px;
+    }
+    #recipe ul:first-of-type{
+        position:relative;
+        text-align: center;
+    }
+    article p{
+        width: 850px;
+        margin-left: 10px;
+    }
+    #directions{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 }
