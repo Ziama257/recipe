@@ -278,7 +278,9 @@ figcaption, label, input, small {
     #dropdownMenu{
         display: flex;
         background-color: white;
-        top: 0px;
+        top: 100px;
+        width: 880px;
+        left: -477px;
     }
     #mainNav{
         visibility: hidden;
@@ -287,5 +289,27 @@ figcaption, label, input, small {
         position: relative;
         width:160px;
         right: 403px;
+    }
+    #search{
+        position: absolute;
+        left: 550px;
+        top: 20px;
+        z-index: 3;
+        width: 350px;
+    }
+    main img{
+        width: 100%;
+    }
+    #avatar{
+        position: relative;
+        right: -130px;
+        top: 10px;
+    }
+    header{
+        top: 190px;
+    }
+    header h1{
+        padding-top: 10px;
+        padding-bottom: 30px;
     }
 }
