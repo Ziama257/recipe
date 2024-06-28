@@ -80,7 +80,10 @@ main img{
     height: 100px;;
     top: 0;
 }
-
+#main a{
+    text-decoration: none;
+    color: black;
+}
 
 #mainNav{
     width: 100%;
@@ -98,7 +101,6 @@ main img{
 #avatar{
     width: 100%;
     position: relative;
-    /* left: 50px; */
 }
 #menu{
     position: relative;
@@ -260,3 +262,30 @@ input[type="text"]{
 
 /* fonts */
 
+p{
+    font-size: 1.25em;
+}
+
+figcaption, label, input, small {
+    font-size: 1em;
+}
+
+@media screen and (min-width:880px) {
+    body, main, #main, #mainNav, aside {
+        max-width: 880px;
+        width: 880px !important
+    }
+    #dropdownMenu{
+        display: flex;
+        background-color: white;
+        top: 0px;
+    }
+    #mainNav{
+        visibility: hidden;
+    }
+    #home{
+        position: relative;
+        width:160px;
+        right: 403px;
+    }
+}
